@@ -1,3 +1,8 @@
+links uteis
+[guia passo a passo](https://code.visualstudio.com/docs/copilot/getting-started)
+[overview](https://code.visualstudio.com/docs/copilot/overview)
+
+
 sessão local, nuvem ou segundo plano
 
 divisão de sessão por tarefa diferentes
@@ -36,7 +41,10 @@ your project's structure and coding patterns)
 
 /init (inicializa o arquivo de instruções. usado uma vez no inicio do proj, e depois ir preenchendo e atualizando)
 
+## Custom agent
 
+para usar, selecione no select do chat (canto direito) e mande o prompt
+'Review my full project'
 
 
 
