@@ -47,5 +47,47 @@ para usar, selecione no select do chat (canto direito) e mande o prompt
 'Review my full project'
 
 
+## Smart Action
+
+- msg de commit
+- info de PR
+- implementar tarefa por comentário (massa)
+
+1. instalar extensão `GitHubull Pull Request`
+2 e 3:
+
+![smart action](image.png)
+[mais ações inteligentes aqui](https://code.visualstudio.com/docs/copilot/copilot-smart-actions)
+
+
+## Melhores Práticas
+
+![tabela1](image-1.png)
+
+- deixar arquivo `copilot-instructions.md` enxuto, apenas com o essencial pois é lido a toda interação do chat
+- criar escopos ao inves de centralizar tudo nele.
+
+`/instructions` - Cria arquivos de instruções específicos
+
+ex:
+
+`copilot-instructions-backend.md`
+applyTo: "src/backend/**"
+- Use async/await for database operations
+- Always validate input data
+- Log errors with timestamps
+
+
+`copilot-instructions-tests.md`
+applyTo: "**/*.test.js"
+- Use descriptive test names
+- Follow AAA pattern (Arrange, Act, Assert)
+- Mock external dependencies
+
+Vantagem:
+Mais organizado: Regras separadas por contexto
+Mais eficiente: Copilot aplica apenas as regras relevantes
+Mais flexível: Diferentes padrões para diferentes partes do projeto
+
 
 
